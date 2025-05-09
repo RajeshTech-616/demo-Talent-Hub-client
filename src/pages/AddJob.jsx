@@ -55,7 +55,7 @@ const AddJob = () => {
         // posting;
         try {
             const response = await axios.post(
-                "https://full-stack-job-portal-server.vercel.app/api/v1/jobs",
+                "https://demo-talent-hub-server.vercel.app/api/v1/jobs",
                 newJob,
                 {
                     withCredentials: true,

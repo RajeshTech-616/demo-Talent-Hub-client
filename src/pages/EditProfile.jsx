@@ -29,7 +29,7 @@ const EditProfile = () => {
     //     queryKey: ["profile"],
     //     queryFn: async () => {
     //         const response = await axios.get(
-    //             `https://full-stack-job-portal-server.vercel.app/api/v1/users/${id}`
+    //             `https://demo-talent-hub-server.vercel.app/api/v1/users/${id}`
     //         );
     //         return response.data;
     //     },
@@ -60,7 +60,7 @@ const EditProfile = () => {
             }
 
             const response = await axios.patch(
-                `https://full-stack-job-portal-server.vercel.app/api/v1/users`,
+                `https://demo-talent-hub-server.vercel.app/api/v1/users`,
                 updateUser,
                 {
                     withCredentials: true,
